@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("Képek/sky2.jpg");
+    background-image: url("Képek/sky5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
@@ -12,10 +12,10 @@ body {
 p {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
-    background-color: rgb(63, 16, 107);
+    background-color: rgb(25, 68, 185);
     color: white;
     margin: 10%;
-    border: 1px solid rgb(195, 0, 255);
+    border: 1px solid rgb(32, 100, 189);
 }
 .gif{
     width: 50%;
@@ -28,6 +28,15 @@ p {
 
 .black{
     color: black;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    color: black;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 h1 {
