@@ -1,14 +1,7 @@
 body {
-    background-image: url("oldwallpaper.webp");
+    background-image: url("Képek/starfield.png");
 }
-p {
-    text-align: center;
-    font-family: "Times New Roman", Times, serif;
-    background-color: rgb(63, 16, 107);
-    color: white;
-    margin: 10%;
-    border: 1px solid rgb(195, 0, 255);
-}
+
 
 h1 {
     text-align: center;
@@ -19,50 +12,11 @@ img {
     width: 20%;
 }
 
-h2 {
-    text-align: center;
-    font-family: "Times New Roman", Times, serif;
-    background-color: rgb(63, 16, 107);
-    color: white;
-    margin: 10%;
-    border: 1px solid rgb(195, 0, 255);
-}
-
-h3 {
-    text-align: center;
-    font-family: "Times New Roman", Times, serif;
-    background-color: rgb(63, 16, 107);
-    color: white;
-    margin: 10%;
-    border: 1px solid rgb(195, 0, 255);
-}
-
-.liszt {
-    text-align: left;
-    font-family: "Times New Roman", Times, serif;
-    background-color: rgb(63, 16, 107);
-    color: white;
-    margin: 10%;
-    border: 1px solid rgb(195, 0, 255);
-}
-
-
-h5{
-    text-align: center;
-}
 
 img{
     text-align: center;
 }
 
-.comment{
-    text-align: center;
-    border-radius: 100px;
-    background-color: rgb(33, 246, 62);
-    color: black;
-    font-size: 25px;
-    padding: 25px;
-}
 
 link{
     color: white;
@@ -85,13 +39,15 @@ tr.striped:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-tr.purple {
-    background-color: #8722ae;
+tr.darkblue {
+    background-color: rgb(34, 55, 174);
     color: #fff;
+    font-size: 100%;
 }
-tr.blueviolet{
-    background-color: #c552f3;
+tr.blue{
+    background-color: #3996d4;
     color: #fff;
+    font-size: 100%;
 }
 
 td a:link {
