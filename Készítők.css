@@ -1,0 +1,113 @@
+body {
+    background-image: url("oldwallpaper.webp");
+}
+p {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(63, 16, 107);
+    color: white;
+    margin: 10%;
+    border: 1px solid rgb(195, 0, 255);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 20%;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(63, 16, 107);
+    color: white;
+    margin: 10%;
+    border: 1px solid rgb(195, 0, 255);
+}
+
+h3 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(63, 16, 107);
+    color: white;
+    margin: 10%;
+    border: 1px solid rgb(195, 0, 255);
+}
+
+.liszt {
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(63, 16, 107);
+    color: white;
+    margin: 10%;
+    border: 1px solid rgb(195, 0, 255);
+}
+
+
+h5{
+    text-align: center;
+}
+
+img{
+    text-align: center;
+}
+
+.comment{
+    text-align: center;
+    border-radius: 100px;
+    background-color: rgb(33, 246, 62);
+    color: black;
+    font-size: 25px;
+    padding: 25px;
+}
+
+link{
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tr.striped:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr.purple {
+    background-color: #8722ae;
+    color: #fff;
+}
+tr.blueviolet{
+    background-color: #c552f3;
+    color: #fff;
+}
+
+td a:link {
+    color:#fff ;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: rgb(77, 255, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+td a:active {
+    color: rgb(255, 196, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
