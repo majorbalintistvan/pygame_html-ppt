@@ -5,7 +5,10 @@
 body {
     background-image: url("Képek/space\ 1..avif");
     background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
 }
+
 p {
     text-align: center;
     font-family: "Times New Roman", Times, serif;
