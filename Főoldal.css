@@ -1,3 +1,82 @@
 .közép{
     text-align: center;
 }
+
+body {
+    background-image: url("oldwallpaper.webp");
+}
+p {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(63, 16, 107);
+    color: white;
+    margin: 10%;
+    border: 1px solid rgb(195, 0, 255);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+img {
+    width: 50%;
+    text-align: left;
+}
+
+
+.liszt {
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(63, 16, 107);
+    color: white;
+    margin: 10%;
+    border: 1px solid rgb(195, 0, 255);
+}
+
+
+h5{
+    text-align: center;
+}
+
+
+
+link{
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tr.striped:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+td a:link {
+    color:#fff ;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: rgb(77, 255, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+td a:active {
+    color: rgb(255, 196, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
