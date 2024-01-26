@@ -55,8 +55,10 @@ h1 {
 }
 
 img {
-    max-width: 70%;
     text-align: left;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
 }
 
 
