@@ -33,6 +33,7 @@ th, td {
     padding: 8px;
     border: 1px solid #ddd;
     text-align: center;
+    font-size: 20px;
 }
 
 tr.striped:nth-child(even) {

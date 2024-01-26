@@ -14,8 +14,9 @@ p {
     font-family: "Times New Roman", Times, serif;
     background-color: rgb(25, 68, 185);
     color: white;
-    margin: 10%;
     border: 1px solid rgb(32, 100, 189);
+    font-size: 25px;
+    padding: 25px;
 }
 .gif{
     width: 50%;
@@ -45,18 +46,8 @@ h1 {
 }
 
 img {
-    width: 50%;
+    width: 80%;
     text-align: left;
-}
-
-
-.liszt {
-    text-align: left;
-    font-family: "Times New Roman", Times, serif;
-    background-color: rgb(63, 16, 107);
-    color: white;
-    margin: 10%;
-    border: 1px solid rgb(195, 0, 255);
 }
 
 
@@ -82,20 +73,26 @@ tr.striped:nth-child(even) {
 }
 
 
-td a:link {
+a:link {
     color:#fff ;
     background-color: transparent;
     text-decoration: none;
 }
 
-td a:hover {
+a:hover {
     color: rgb(77, 255, 0);
     background-color: transparent;
     text-decoration: underline;
 }
 
-td a:active {
+a:active {
     color: rgb(255, 196, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: underline;
 }
