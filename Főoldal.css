@@ -87,9 +87,6 @@ img {
     margin-right: auto;
 }
 
-link{
-    color: white;
-}
 
 table{
     border-collapse: collapse;
@@ -131,25 +128,4 @@ a:visited{
     color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: underline;
-}
-
-* {box-sizing: border-box;}
-
-.img-zoom-container {
-    position: relative;
-}
-
-.img-zoom-lens {
-    position: absolute;
-    border: 1px solid #d4d4d4;
-    /*set the size of the lens:*/
-    width: 250px;
-    height: 250px;
-}
-
-.img-zoom-result {
-    border: 1px solid #d4d4d4;
-    /*set the size of the result div:*/
-    width: 300px;
-    height: 300px;
 }

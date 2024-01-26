@@ -110,6 +110,12 @@
     <p>Ha a madár eléri a kép jobb szélét akkor forduljon meg és induljon viszza, de vigyáznii kell nehogy kimenjen baloldalon</p>
     <p>Több képet berakunk akkor mozgásnak néz ki, de vigyázni kell a sebességével</p>
 
+    <p>Feliratok: több lépésre van szükség:</p>
+    <p>1. lépés: font objektum létrehozása: pygame.font.Font(betűtípus, betűméret)</p>
+    <p>2. lépés: a font objektum alapján létrehozunk egy réteget(képet),ami tartalmazza a feliratot, font objektumon hívjuk a ren('Szöveg', True, betűszín)metódust</p>
+    <p>3. lépés: Text-rect: hivatkozunk a rétegre, meghívjuk rajta a get_rect metódust(hol legyen elhelyezve rajta a kép)</p>
+    <p>4. lépés: A réteg megjelenítése a screen.blit(réteg, pozició)</p>
+
     <p><a href="https://opengameart.org/">Opengameart.org</a></p>
 
     <img src="Képek/kép1.PNG" alt="Az 1. videó kódja"><br><h6></h6>
