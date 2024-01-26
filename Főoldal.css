@@ -59,7 +59,7 @@ img {
     height: auto;
 }
 
-ul{
+.ok{
     text-align: left;
     font-family: "Times New Roman", Times, serif;
     background-color: rgb(25, 68, 185);
@@ -72,8 +72,10 @@ ul{
     margin-right: auto;
 }
 
-h3{
+
+.listacím{
     text-align: left;
+    padding: 20px;
     font-family: "Times New Roman", Times, serif;
     background-color: rgb(25, 68, 185);
     color: white;
