@@ -10,7 +10,6 @@ body {
 }
 
 p {
-
     text-align: center;
     font-family: "Times New Roman", Times, serif;
     background-color: rgb(25, 68, 185);
@@ -24,7 +23,6 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .gif{
@@ -61,6 +59,31 @@ img {
     height: auto;
 }
 
+ul{
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(25, 68, 185);
+    color: white;
+    border: 1px solid rgb(32, 100, 189);
+    font-size: 25px;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(25, 68, 185);
+    color: white;
+    border: 1px solid rgb(32, 100, 189);
+    font-size: 25px;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 link{
     color: white;
@@ -106,4 +129,25 @@ a:visited{
     color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: underline;
+}
+
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+    position: relative;
+}
+
+.img-zoom-lens {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    /*set the size of the lens:*/
+    width: 250px;
+    height: 250px;
+}
+
+.img-zoom-result {
+    border: 1px solid #d4d4d4;
+    /*set the size of the result div:*/
+    width: 300px;
+    height: 300px;
 }
