@@ -10,16 +10,15 @@ body {
 }
 
 p {
-    text-align: center;
     font-family: "Times New Roman", Times, serif;
-    background-color: rgb(25, 68, 185);
+    background-color: rgb(8, 58, 196);
     color: white;
     border: 1px solid rgb(32, 100, 189);
     font-size: 25px;
     padding: 20px;
-    border-radius: 100px;
+    border-radius: 10px;
     width: 85%;
-    text-align: center;
+    text-align: justify;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -62,7 +61,7 @@ img {
 .ok{
     text-align: left;
     font-family: "Times New Roman", Times, serif;
-    background-color: rgb(25, 68, 185);
+    background-color: rgb(8, 58, 196);
     color: white;
     border: 1px solid rgb(32, 100, 189);
     font-size: 25px;
@@ -70,6 +69,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
 }
 
 

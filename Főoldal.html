@@ -102,41 +102,53 @@
     </ul>
     </ul>
 
-    <p>Ha valamilyen alakzatot raksz a képre akkor annak meg kell adni a pozicióját</p>
-    <p>A játékcikluson belül elhelyezzük a téglalapot, utána növeljük a kordinátákat</p>
-    <p>be kell állítani, hog hányszor fusson le</p>
-    <p>A bird ne hagyhassa el a játékablakot, úgy hogy:</p>
-    <p>A játéktérből kell levonni a bird méretét, nem a legjobb ötlet</p>
-    <p>A képet ráhelyezzük egy rétegre, arra helyezünk egy  téglalapot, a téglalapnak lesznek attributumai, ezek segítik a pozicionálást, ezeket le lehet kérni, sőt még a közepét is lekérhetjük</p>
-    <p>Ez a metodus a get_rect</p>
-    <p>Ha a madár eléri a kép jobb szélét akkor forduljon meg és induljon viszza, de vigyáznii kell nehogy kimenjen baloldalon</p>
-    <p>Több képet berakunk akkor mozgásnak néz ki, de vigyázni kell a sebességével</p>
+    <p>
+        Hogyan készítsünk animációt? <br>
+        Először egy alakzatot kell elhelyeznünk a játékcikluson belül, 
+        ehhez meg kell adnunk a kiinduló pozícióját, hogy később ezzel dolgozhassunk. <br>
+    </p>
+    <img src="Képek/kép1.PNG" alt="Az 1. videó kódja"><br><h6></h6>
+
+    <p>
+        A következő lépés a mozgatás, ehhez változtatni kell a koordinátáit. <br>
+        Attól függően, hogy az X vagy Y koordinátáit növeljük/csökkentjük, könnyen változtathatjuk az irányát. <br>
+        Utána be kell állítani, hogy hányszor fusson le, mert ettől függ a sebesége. <br>
+    </p>
+    <img src="Képek/kép2.PNG" alt="Az 2. videó kódja"><br><h6></h6>
+
+    <p>
+        Ugyanakkor azt is meg kell oldani, hogy az alakzat ne hagyhassa el a játék ablakot: <br>
+        Ennek egyik megoldási módja az, hogy az alakzatot ráhelyezzük egy rétegre, 
+        arra helyezünk egy téglalapot, a téglalapnak lesznek attribútumai, amik segítik a pozicionálást, 
+        ezek lekérhetőek, így lehet ezzel dolgozni. <br>
+        Ez a metódus a get_rect.
+    </p>
+    <img src="Képek/kép3.PNG" alt="Az 3. videó kódja"><br><h6></h6>
+
+    <p>
+        A következő lépés az, ha az alakzat eléri a játéktér másik szélét, 
+        akkor forduljon meg és induljon el vissza, 
+        de vigyázni kell nehogy kimenjen az eredeti oldalon. <br>
+        Ha több képet rakunk egymás után, akkor az mozgásnak néz ki, 
+        ezt hívják FPS-nek (frames per second avagy képkocka sebesség). <br>
+    </p>
+    <img src="Képek/kép4.PNG" alt="Az 4. videó kódja"><br><h6></h6>
 
     <ul class="ok">
         <h3><b>Feliratok: több lépésre van szükség:</b></h3>
             <ul>
                 <li>1. lépés: font objektum létrehozása: pygame.font.Font(betűtípus, betűméret)</li>
-                <li>2. lépés: a font objektum alapján létrehozunk egy réteget(képet),ami tartalmazza a feliratot, font objektumon hívjuk a ren('Szöveg', True, betűszín)metódust</li>
-                <li>3. lépés: Text-rect: hivatkozunk a rétegre, meghívjuk rajta a get_rect metódust(hol legyen elhelyezve rajta a kép)</li>
+                <li>2. lépés: a font objektum alapján létrehozunk egy réteget(képet),ami tartalmazza a feliratot, 
+                    font objektumon hívjuk a ren('Szöveg', True, betűszín)metódust</li>
+                <li>3. lépés: Text-rect: hivatkozunk a rétegre, meghívjuk rajta a 
+                    get_rect metódust(hol legyen elhelyezve rajta a kép)</li>
                 <li>4. lépés: A réteg megjelenítése a screen.blit(réteg, pozició)</li>
             </ul>
     </ul>
-
-    <p><a href="https://opengameart.org/">Opengameart.org</a></p>
-
-    <img src="Képek/kép1.PNG" alt="Az 1. videó kódja"><br><h6></h6>
-    <p>Ha valamilyen alakzatot raksz a képre akkor annak meg kell adni a pozicióját</p>
-    <p>A játékcikluson belül elhelyezzük a téglalapot, utána növeljük a kordinátákat</p>
-
-    <img src="Képek/kép2.PNG" alt="Az 2. videó kódja"><br><h6></h6>
-
-    <img src="Képek/kép3.PNG" alt="Az 3. videó kódja"><br><h6></h6>
-
-    <img src="Képek/kép4.PNG" alt="Az 4. videó kódja"><br><h6></h6>
-
     <img src="Képek/kép5.PNG" alt="Az 5. videó kódja"><br><h6></h6>
 
-
+    <p>Ezen az oldalon találhatsz különböző képeket a programodhoz: <a href="https://opengameart.org/">Opengameart.org</a></p>
+    <img src="Képek/Opengameart.JPG" alt="Opengameart főoldala"><br><h6></h6>
 
 </body>
 </html>
