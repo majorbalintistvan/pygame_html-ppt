@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        <p>
+            Hogyan készítsünk animációt?
+            Először egy alakzatot kell elhelyeznünk a játékcikluson belül, ehhez meg kell adnunk a kiinduló pozícióját, hogy később ezzel dolgozhassunk. A következő lépés a mozgatás, ehhez változtatni kell a koordinátáit. Attól függően, hogy az X vagy Y koordinátáit növeljük/csökkentjük, könnyen változtathatjuk az irányát. Utána be kell állítani, hogy hányszor fusson le, mert ettől függ a sebesége.
+        </p>
+        
+        <p>
+            Ugyanakkor azt is meg kell oldani, hogy az alakzat ne hagyhassa el a játék ablakot:
+            Ennek egyik megoldási módja az, hogy az alakzatot ráhelyezzük egy rétegre, arra helyezünk egy téglalapot, a téglalapnak lesznek attribútumai, amik segítik a pozicionálást, ezek lekérhetőek, így lehet ezzel dolgozni.
+            Ez a metódus a get_rect.
+        </p>
+        
+        <p>
+            A következő lépés az, ha az alakzat eléri a játéktér másik szélét, akkor forduljon meg és induljon el vissza, de vigyázni kell nehogy kimenjen az eredeti oldalon.
+            Ha több képet rakunk egymás után, akkor az mozgásnak néz ki, ezt hívják FPS-nek (frames per second avagy képkocka sebesség).
+        </p>
+    </p>
+
+</body>
+</html>

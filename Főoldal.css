@@ -9,22 +9,19 @@ body {
     background-size: cover;
 }
 
-p {
-
-    text-align: center;
+p{
     font-family: "Times New Roman", Times, serif;
-    background-color: rgb(25, 68, 185);
+    background-color: rgb(8, 58, 196);
     color: white;
-    border: 1px solid rgb(32, 100, 189);
+    border: 1px solid rgb(32, 35, 189);
     font-size: 25px;
     padding: 20px;
-    border-radius: 100px;
+    border-radius: 10px;
     width: 85%;
-    text-align: center;
+    text-align: left;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .gif{
@@ -49,7 +46,12 @@ p {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
-h1 {
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2{
     text-align: center;
     color: white;
 }
@@ -61,10 +63,21 @@ img {
     height: auto;
 }
 
-
-link{
+.ok{
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+    background-color: rgb(8, 58, 196);
     color: white;
+    border: 1px solid rgb(32, 35, 189);
+    font-size: 25px;
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
 }
+
 
 table{
     border-collapse: collapse;
