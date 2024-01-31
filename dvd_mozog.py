@@ -5,7 +5,7 @@ import time
 
 pygame.init()
 # képernyő hossza
-width = 1600
+width = 1200
 # képernyő magassága
 height = 1080
 screen_res = (width, height)
