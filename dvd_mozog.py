@@ -5,9 +5,9 @@ import time
 
 pygame.init()
 # képernyő hossza
-width = 1200
+width = 1600
 # képernyő magassága
-height = 1080
+height = 800
 screen_res = (width, height)
 
 pygame.display.set_caption("Pattogó dvd")
