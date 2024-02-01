@@ -75,9 +75,9 @@ while True:
     if dvd_index>len(dvd)-1:
         dvd_index=0
     
+    screen.blit(dvd[dvd_index], dvd_rect)
     screen.blit(time_surf, time_rect)
     screen.blit(score_surf,score_rect)
-    screen.blit(dvd[dvd_index], dvd_rect)
     # frissiteni a képernyőt
     pygame.display.update()
     clock.tick(60)
