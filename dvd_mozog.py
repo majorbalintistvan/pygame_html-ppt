@@ -57,11 +57,8 @@ while True:
 
     # háttér kitoltése
     screen.fill(fekete)
-    #dvd animáció
     # dvd mozog
     dvd_rect = dvd_rect.move(gyorsaság)
-    # mostmár a dvd közepe (101,101)
-    # ezen a mentén fog a falunk mozogni
     # ha a dvd kimely a képből jöjjön vissza
     if dvd_rect.left <= 0 or dvd_rect.right >= width:
         gyorsaság[0] = -gyorsaság[0]
