@@ -14,7 +14,7 @@ time_start = time.time()
 clock = pygame.time.Clock()
 # színek
 piros = (255, 0, 0)
-Háttérkép = pygame.image.load("kastély.png")
+Háttérkép = pygame.image.load("Képek/pygame program képek/kastély.png")
 Háttér=pygame.transform.scale(Háttérkép,(1600,960))
 fehér = (255, 255, 255)
 
@@ -23,12 +23,12 @@ game_font = pygame.font.SysFont("Verdana", 60)
 text_surf = game_font.render("GAME", True, fehér)
 text_rect = text_surf.get_rect(center=(width / 2, height / 2))
 # denevér kép animáció összerakása
-bat1 = pygame.image.load("denevér1.png").convert_alpha()
-bat2 = pygame.image.load("denevér2.png").convert_alpha()
-bat3 = pygame.image.load("denevér3.png").convert_alpha()
-bat4 = pygame.image.load("denevér4.png").convert_alpha()
-bat5 = pygame.image.load("denevér3.png").convert_alpha()
-bat6 = pygame.image.load("denevér2.png").convert_alpha()
+bat1 = pygame.image.load("Képek/pygame program képek/denevér1.png").convert_alpha()
+bat2 = pygame.image.load("Képek/pygame program képek/denevér2.png").convert_alpha()
+bat3 = pygame.image.load("Képek/pygame program képek/denevér3.png").convert_alpha()
+bat4 = pygame.image.load("Képek/pygame program képek/denevér4.png").convert_alpha()
+bat5 = pygame.image.load("Képek/pygame program képek/denevér3.png").convert_alpha()
+bat6 = pygame.image.load("Képek/pygame program képek/denevér2.png").convert_alpha()
 bat = [bat1, bat2, bat3, bat4, bat5, bat6]
 bat_index = 0
 bat_rect = bat[bat_index].get_rect(midleft=(200, 140))
