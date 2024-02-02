@@ -5,7 +5,7 @@ pygame.init()
 # képernyő hossza
 width = 1200
 # képernyő magassága
-height = 860
+height = 1080
 screen_res = (width, height)
 
 pygame.display.set_caption("Repülő denevér")
@@ -15,7 +15,7 @@ clock = pygame.time.Clock()
 # színek
 piros = (255, 0, 0)
 Háttérkép = pygame.image.load("kastély.png")
-Háttér=pygame.transform.scale(Háttérkép,(1600,1080))
+Háttér=pygame.transform.scale(Háttérkép,(1200,1080))
 fehér = (255, 255, 255)
 
 # kiírás
