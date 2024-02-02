@@ -13,10 +13,47 @@
     <link rel="stylesheet" href="Index.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-        body{
-            text-align: center;
-            align-items: center;
-        }
+    body{
+        text-align: center;
+        align-items: center;
+    }
+
+.flip-box {
+    background-color: transparent;
+    width: 500px;
+    height: 550px;
+    perspective: 1000px;
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    color: blue;
+}
+
+.flip-box-back {
+    color: white;
+    transform: rotateY(180deg);
+}
     </style>
 </head>
 <body>
@@ -149,16 +186,11 @@
 
     <p>Ha elakadtál a kódokkal, segítséget a <a href="https://game.sulipy.hu/">game.sulipy.hu</a>-n találhatsz</p>
 
-    <div _ngcontent-ng-c3420543200="" class="card-container"><div _ngcontent-ng-c3420543200="" class="flip-card">
-        <div _ngcontent-ng-c3420543200="" class="flip-card-inner"><div _ngcontent-ng-c3420543200="" class="flip-card-front"><img _ngcontent-ng-c3420543200="" src="https://game.sulipy.hu/assets/images/Gorilla.png" alt="Avatar" style="width: auto; height: 100%;"></div>
-        <div _ngcontent-ng-c3420543200="" class="flip-card-back"><div _ngcontent-ng-c3420543200="" class="ready">Készen állsz?!
 
-    </div></div></div></div></div>
-
-
-    </html><iframe _ngcontent-ng-c3898081263 width="560" height="315" src="https://www.youtube.com/embed/my3ra3lK0UU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>…</iframe>
+    <iframe _ngcontent-ng-c3898081263 width="560" height="315" src="https://www.youtube.com/embed/my3ra3lK0UU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>…</iframe>
     <iframe _ngcontent-ng-c4148301921 width="560" height="315" src="https://www.youtube.com/embed/EFNANHiqeNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>…</iframe>
     <iframe _ngcontent-ng-c326649106 width="560" height="315" src="https://www.youtube.com/embed/eJALNy-KGK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>…</iframe>
     <iframe _ngcontent-ng-c2729275190 width="560" height="315" src="https://www.youtube.com/embed/_IpH1e_Bb1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>…</iframe>
     <iframe _ngcontent-ng-c3247077448 width="560" height="315" src="https://www.youtube.com/embed/SrYF6yMs8n8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>…</iframe>
+    </html>
 </body>

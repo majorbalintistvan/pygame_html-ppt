@@ -63,6 +63,16 @@ img {
     height: auto;
 }
 
+.gorilla{
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .ok{
     text-align: left;
     font-family: "Times New Roman", Times, serif;
@@ -120,3 +130,4 @@ a:visited{
     background-color: transparent;
     text-decoration: underline;
 }
+
