@@ -1,3 +1,10 @@
 body{
     text-align: center;
 }
+
+img {
+    text-align:  center;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+}
